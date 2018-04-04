@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Helvetica";
+    font-size: 16px;
+    overflow: hidden;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.navbar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #085b57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .navbar > .item {
+        color: #f4f8fb;
+        min-width: 50px;
+        padding: 10px;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+    .navbar > .item:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+#home, #about, #professional-background, #academic-background {
+    padding-top: 50px;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+}
+#home {
+    background: url("public/images/background1.jpg") center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #home > .content {
+        max-height: 50vh;
+        max-width: 50vh;
+    }
+    #home > .content > div {
+        color: #fff;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+    } 
+    #home > .content > img {
+        max-height: calc(100% - 50px);
+        max-width: 100%;
+        border-radius: 50%;
+    } 
+#about {
+    background-color: #354344;
+    font-weight: bold;
+}
+#professional-background {
+    background-color: #354344;
+    font-weight: bold;
+}
+#academic-background {
+    background-color: #354344;
+    font-weight: bold;
+}
