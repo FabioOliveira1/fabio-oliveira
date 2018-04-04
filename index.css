@@ -24,17 +24,17 @@ a {
     position: fixed;
     top: 0;
     left: 0;
+    padding: 0 15px;
     background-color: #085b57;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
     .navbar > .item {
         color: #f4f8fb;
-        min-width: 50px;
-        padding: 10px;
-        margin: 0 10px;
+        padding: 15px 0;
+        margin: 0 5px;
         font-weight: bold;
+        float: left;
     }
     .navbar > .item:hover {
         color: #fff;
@@ -55,6 +55,7 @@ a {
     #home > .content {
         max-height: 50vh;
         max-width: 50vh;
+        padding: 15px;
     }
     #home > .content > div {
         color: #fff;
@@ -63,7 +64,6 @@ a {
         text-align: center;
     } 
     #home > .content > img {
-        max-height: calc(100% - 50px);
         max-width: 100%;
         border-radius: 50%;
     } 
